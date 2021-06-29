@@ -1,0 +1,397 @@
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6d0a5ecd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Fetching config from server at : http://localhost:1111
+Located environment: name=ProductService, profiles=[default], label=null, version=2e531d324beea25a6e1437619d87942e831ed987, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/infyReskillProj/configrepo.git/ProductService.properties'}, MapPropertySource {name='https://github.com/infyReskillProj/configrepo.git/application.properties'}]}
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+Finished Spring Data repository scanning in 160ms. Found 2 JPA repository interfaces.
+BeanFactory id=d1675ea8-f5be-360a-85e2-7113aefc4e12
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6d0a5ecd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8000 (http)
+Initializing ProtocolHandler ["http-nio-8000"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.37]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3678 ms
+Initializing ExecutorService 'applicationTaskExecutor'
+HHH000204: Processing PersistenceUnitInfo [name: default]
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+HHH000412: Hibernate ORM core version 5.4.20.Final
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+HikariPool-1 - Starting...
+Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+HikariPool-1 - Start completed.
+HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1624720148288 with initial instances count: 0
+Registering application PRODUCTSERVICE with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1624720148299, current=UP, previous=STARTING]
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000: registering service...
+Starting ProtocolHandler ["http-nio-8000"]
+Tomcat started on port(s): 8000 (http) with context path ''
+Updating port to 8000
+Triggering deferred initialization of Spring Data repositories…
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000 - registration status: 204
+Spring Data repositories initialized!
+Started ProductServiceApplication in 13.306 seconds (JVM running for 15.116)
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: false
+Getting all instance registry info from the eureka server
+The response status is 200
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 11 ms
+Application shutdown requested.
+Unregistering application PRODUCTSERVICE with eureka with status DOWN
+Saw local status change event StatusChangeEvent [timestamp=1624720289025, current=DOWN, previous=UP]
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000: registering service...
+Pausing ProtocolHandler ["http-nio-8000"]
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000 - registration status: 204
+Stopping service [Tomcat]
+Destroying Spring FrameworkServlet 'dispatcherServlet'
+Stopping ProtocolHandler ["http-nio-8000"]
+Destroying ProtocolHandler ["http-nio-8000"]
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Shutting down ExecutorService 'applicationTaskExecutor'
+Shutting down DiscoveryClient ...
+Unregistering ...
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000 - deregister  status: 200
+Completed shut down of DiscoveryClient
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f32969c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Fetching config from server at : http://localhost:1111
+Located environment: name=ProductService, profiles=[default], label=null, version=2e531d324beea25a6e1437619d87942e831ed987, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/infyReskillProj/configrepo.git/ProductService.properties'}, MapPropertySource {name='https://github.com/infyReskillProj/configrepo.git/application.properties'}]}
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+Finished Spring Data repository scanning in 98ms. Found 2 JPA repository interfaces.
+BeanFactory id=d1675ea8-f5be-360a-85e2-7113aefc4e12
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f32969c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8000 (http)
+Initializing ProtocolHandler ["http-nio-8000"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.37]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3231 ms
+Initializing ExecutorService 'applicationTaskExecutor'
+HHH000204: Processing PersistenceUnitInfo [name: default]
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+HHH000412: Hibernate ORM core version 5.4.20.Final
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+HikariPool-1 - Starting...
+Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+HikariPool-1 - Start completed.
+HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1624720313353 with initial instances count: 1
+Registering application PRODUCTSERVICE with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1624720313380, current=UP, previous=STARTING]
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000: registering service...
+Starting ProtocolHandler ["http-nio-8000"]
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000 - registration status: 204
+Tomcat started on port(s): 8000 (http) with context path ''
+Updating port to 8000
+Triggering deferred initialization of Spring Data repositories…
+Spring Data repositories initialized!
+Started ProductServiceApplication in 11.925 seconds (JVM running for 13.582)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 10 ms
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Application shutdown requested.
+Unregistering application PRODUCTSERVICE with eureka with status DOWN
+Saw local status change event StatusChangeEvent [timestamp=1624721102960, current=DOWN, previous=UP]
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000: registering service...
+Pausing ProtocolHandler ["http-nio-8000"]
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000 - registration status: 204
+Stopping service [Tomcat]
+Destroying Spring FrameworkServlet 'dispatcherServlet'
+Stopping ProtocolHandler ["http-nio-8000"]
+Destroying ProtocolHandler ["http-nio-8000"]
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Shutting down ExecutorService 'applicationTaskExecutor'
+Shutting down DiscoveryClient ...
+Unregistering ...
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000 - deregister  status: 200
+Completed shut down of DiscoveryClient
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$130c69e0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Fetching config from server at : http://localhost:1111
+Located environment: name=ProductService, profiles=[default], label=null, version=2e531d324beea25a6e1437619d87942e831ed987, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/infyReskillProj/configrepo.git/ProductService.properties'}, MapPropertySource {name='https://github.com/infyReskillProj/configrepo.git/application.properties'}]}
+Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+Finished Spring Data repository scanning in 94ms. Found 2 JPA repository interfaces.
+BeanFactory id=d1675ea8-f5be-360a-85e2-7113aefc4e12
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$130c69e0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8000 (http)
+Initializing ProtocolHandler ["http-nio-8000"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.37]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1942 ms
+Initializing ExecutorService 'applicationTaskExecutor'
+HHH000204: Processing PersistenceUnitInfo [name: default]
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+HHH000412: Hibernate ORM core version 5.4.20.Final
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+HikariPool-1 - Starting...
+Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+HikariPool-1 - Start completed.
+HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1624721123667 with initial instances count: 1
+Registering application PRODUCTSERVICE with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1624721123675, current=UP, previous=STARTING]
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000: registering service...
+Starting ProtocolHandler ["http-nio-8000"]
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000 - registration status: 204
+Tomcat started on port(s): 8000 (http) with context path ''
+Updating port to 8000
+Triggering deferred initialization of Spring Data repositories…
+Spring Data repositories initialized!
+Application shutdown requested.
+Unregistering application PRODUCTSERVICE with eureka with status DOWN
+Saw local status change event StatusChangeEvent [timestamp=1624721141223, current=DOWN, previous=UP]
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000: registering service...
+Pausing ProtocolHandler ["http-nio-8000"]
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000 - registration status: 204
+Stopping service [Tomcat]
+Stopping ProtocolHandler ["http-nio-8000"]
+Destroying ProtocolHandler ["http-nio-8000"]
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Shutting down ExecutorService 'applicationTaskExecutor'
+Shutting down DiscoveryClient ...
+Unregistering ...
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000 - deregister  status: 200
+Completed shut down of DiscoveryClient
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$bc7e852e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Fetching config from server at : http://localhost:1111
+Located environment: name=ProductService, profiles=[default], label=null, version=2e531d324beea25a6e1437619d87942e831ed987, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/infyReskillProj/configrepo.git/ProductService.properties'}, MapPropertySource {name='https://github.com/infyReskillProj/configrepo.git/application.properties'}]}
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+Finished Spring Data repository scanning in 96ms. Found 2 JPA repository interfaces.
+BeanFactory id=d1675ea8-f5be-360a-85e2-7113aefc4e12
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$bc7e852e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8000 (http)
+Initializing ProtocolHandler ["http-nio-8000"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.37]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1938 ms
+Initializing ExecutorService 'applicationTaskExecutor'
+HHH000204: Processing PersistenceUnitInfo [name: default]
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+HHH000412: Hibernate ORM core version 5.4.20.Final
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+HikariPool-1 - Starting...
+Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+HikariPool-1 - Start completed.
+HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1624721161987 with initial instances count: 0
+Registering application PRODUCTSERVICE with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1624721161995, current=UP, previous=STARTING]
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000: registering service...
+Starting ProtocolHandler ["http-nio-8000"]
+Tomcat started on port(s): 8000 (http) with context path ''
+Updating port to 8000
+Triggering deferred initialization of Spring Data repositories…
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000 - registration status: 204
+Spring Data repositories initialized!
+Started ProductServiceApplication in 8.804 seconds (JVM running for 10.532)
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: false
+Getting all instance registry info from the eureka server
+The response status is 200
+Application shutdown requested.
+Unregistering application PRODUCTSERVICE with eureka with status DOWN
+Saw local status change event StatusChangeEvent [timestamp=1624721201736, current=DOWN, previous=UP]
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000: registering service...
+Pausing ProtocolHandler ["http-nio-8000"]
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000 - registration status: 204
+Stopping service [Tomcat]
+Stopping ProtocolHandler ["http-nio-8000"]
+Destroying ProtocolHandler ["http-nio-8000"]
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Shutting down ExecutorService 'applicationTaskExecutor'
+Shutting down DiscoveryClient ...
+Unregistering ...
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000 - deregister  status: 200
+Completed shut down of DiscoveryClient
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a45738a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Fetching config from server at : http://localhost:1111
+Located environment: name=ProductService, profiles=[default], label=null, version=2e531d324beea25a6e1437619d87942e831ed987, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/infyReskillProj/configrepo.git/ProductService.properties'}, MapPropertySource {name='https://github.com/infyReskillProj/configrepo.git/application.properties'}]}
+Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+Finished Spring Data repository scanning in 104ms. Found 2 JPA repository interfaces.
+BeanFactory id=d1675ea8-f5be-360a-85e2-7113aefc4e12
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a45738a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8000 (http)
+Initializing ProtocolHandler ["http-nio-8000"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.37]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1994 ms
+Initializing ExecutorService 'applicationTaskExecutor'
+HHH000204: Processing PersistenceUnitInfo [name: default]
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+HHH000412: Hibernate ORM core version 5.4.20.Final
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+HikariPool-1 - Starting...
+Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+HikariPool-1 - Start completed.
+HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1624721222545 with initial instances count: 0
+Registering application PRODUCTSERVICE with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1624721222554, current=UP, previous=STARTING]
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000: registering service...
+Starting ProtocolHandler ["http-nio-8000"]
+Tomcat started on port(s): 8000 (http) with context path ''
+Updating port to 8000
+Triggering deferred initialization of Spring Data repositories…
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000 - registration status: 204
+Spring Data repositories initialized!
+Application shutdown requested.
+Unregistering application PRODUCTSERVICE with eureka with status DOWN
+Saw local status change event StatusChangeEvent [timestamp=1624721232617, current=DOWN, previous=UP]
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000: registering service...
+Pausing ProtocolHandler ["http-nio-8000"]
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000 - registration status: 204
+Stopping service [Tomcat]
+Stopping ProtocolHandler ["http-nio-8000"]
+Destroying ProtocolHandler ["http-nio-8000"]
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Shutting down ExecutorService 'applicationTaskExecutor'
+Shutting down DiscoveryClient ...
+Unregistering ...
+DiscoveryClient_PRODUCTSERVICE/DESKTOP-LAEURKE:ProductService:8000 - deregister  status: 200
+Completed shut down of DiscoveryClient
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
